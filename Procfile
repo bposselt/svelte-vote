@@ -1,1 +1,1 @@
-web: npm run dev -- --port $PORT --host 0.0.0.0
+web: npm run dev -- --port 3000 --host 0.0.0.0
