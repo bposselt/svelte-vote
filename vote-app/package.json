@@ -1,6 +1,9 @@
 {
   "name": "vote-app",
   "version": "0.0.1",
+  "engines": {
+    "node": "17.x"
+  },
   "scripts": {
     "dev": "svelte-kit dev --host 0.0.0.0",
     "build": "svelte-kit build",
@@ -24,5 +27,9 @@
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bposselt/svelte-vote"
+  },
 }
